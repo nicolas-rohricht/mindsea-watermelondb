@@ -1,0 +1,42 @@
+{
+  "name": "milshake-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js --ignore public --ignore frontend",
+    "dev": "webpack -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.1",
+    "connect-flash": "^0.1.1",
+    "connect-mongo": "^4.6.0",
+    "core-js": "^3.6.5",
+    "css-loader": "^3.6.0",
+    "csurf": "^1.11.0",
+    "dotenv": "^14.2.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "helmet": "^5.0.2",
+    "luxon": "^2.3.0",
+    "mongoose": "^6.1.7",
+    "regenerator-runtime": "^0.13.5",
+    "style-loader": "^1.2.1",
+    "validator": "^13.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15",
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.10.5",
+    "@babel/preset-env": "^7.10.4",
+    "babel-loader": "^8.1.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12"
+  }
+}
